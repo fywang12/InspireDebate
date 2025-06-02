@@ -35,7 +35,7 @@ We propose an innovative intelligent debating system that addresses the limitati
 ```
 InspireDebate/
 ├── debating.py              # Main debating prcessing implementation
-├── inspirescore.ipynb         # inspirescore system implementation
+├── inspirescore.py         # inspirescore system implementation
 ...
 ```
 
