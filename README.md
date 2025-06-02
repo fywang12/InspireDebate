@@ -41,7 +41,7 @@ InspireDebate/
 
 ## 🏃‍♂️‍➡️ Quick Start
 
-###  Requirements
+###  💻 Requirements
 
 - Python 3.9+
 - PyTorch 2.0.0+
@@ -96,8 +96,7 @@ First, format your debate dataset as follows:
         "input": "",
         "output": "",
         "system": ""
-    },
-    ...
+    }
 ]
 
 ```
@@ -115,11 +114,13 @@ DPO preference pairs are selected by comparing InspireScore ratings, with the hi
 
 Json formatted:
 ```json
-{
-    "chosen": "Preferred response",
-    "rejected": "Less preferred response",
-    "prompt": ""
-}
+[
+   {
+       "chosen": "Preferred response",
+       "rejected": "Less preferred response",
+       "prompt": ""
+   }
+]
 ```
 To perform DPO training with models like LLaMA-3, use:
 ```bash
