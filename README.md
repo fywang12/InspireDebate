@@ -100,7 +100,7 @@ First, format your debate dataset as follows:
 ]
 
 ```
-You can access our SFT datasets on [🤗 Hugging Face](https://huggingface.co/datasets/fywang12/InspireDebate)
+You can access our SFT datasets on [🤗 Hugging Face](https://huggingface.co/datasets/adreammaker/InspireDebate)
 
 To start SFT training with open-source models such as LLaMA-3, simply run:
 
