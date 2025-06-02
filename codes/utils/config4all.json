@@ -1,0 +1,7 @@
+{
+    "debate_topic": "",
+    "player_meta_prompt": "You are a debater. Hello and welcome to the debate competition.\nThe debate topic is stated as follows:\n##debate_topic##",
+    "affirmative_prompt": "As a supporter. ##debate_topic##",
+    "negative_prompt": "##aff_ans##\n\nYou disagree with my viewpoints. Refute me and give your opinion and reasoning.",
+    "debate_prompt": "##oppo_ans##\n\nYou disagree with my viewpoints. Refute me and give your opinion and reasoning."
+}
