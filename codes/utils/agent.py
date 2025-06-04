@@ -11,7 +11,7 @@ from openai import RateLimitError, APIError, APIConnectionError
 from .openai_utils import OutOfQuotaException, AccessTerminatedException
 from .openai_utils import num_tokens_from_string, model2max_context
 # set the supported models list
-support_models = ['gpt-3.5-turbo', 'gpt-3.5-turbo-0301', 'gpt-4', 'gpt-4-0314', 'ep-20250228235619-8f52t','llama31-series'] #ep-xxx is Doubao-1.5-pro-256k Inference Point, llama31-series is the llama3.1 series models
+support_models = ['gpt-3.5-turbo', 'gpt-3.5-turbo-0301', 'gpt-4', 'gpt-4-0314', 'ep-xxx','llama31-series'] #ep-xxx is Volcengine inference point, llama31-series is the llama3.1 series models
 
 class Agent_debate:
     def __init__(self, model_name: str, name: str, temperature: float, sleep_time: float=0, url:str="http://0.0.0.0:8000/v1", serper_api_key: Optional[str] = None,openai_api_key: Optional[str] = None, debate_topic:str=None) -> None:
